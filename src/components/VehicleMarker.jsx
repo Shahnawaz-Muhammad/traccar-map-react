@@ -5,7 +5,7 @@ import { iconDriver } from "../components/markerIcons";
 const VehicleMarker = ({ vehicle }) => {
   return (
     <Marker
-      key={vehicle.id}
+     
       position={[vehicle.latitude, vehicle.longitude]}
       icon={iconDriver}
     >
