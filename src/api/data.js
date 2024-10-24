@@ -194,3 +194,81 @@ export const complaintData = [
     ],
   },
 ];
+
+export const gateData = [
+  {
+    "id": 1,
+    "name": "Main Gate 1",
+    "latitude": 33.553654, 
+    "longitude": 73.093687,
+    "description": "This is the main entrance to DHA Islamabad from Islamabad Expressway.",
+    "systems": {
+      "accessControl": "Biometric System",
+      "securityPersonnel": "5 Guards",
+      "cameras": "6 CCTV Cameras",
+      "vehicleCheck": "Automatic License Plate Recognition"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Main Gate 2",
+    "latitude": 33.523678, 
+    "longitude": 73.104230,
+    "description": "This is the secondary entrance to DHA Islamabad from GT Road.",
+    "systems": {
+      "accessControl": "RFID System",
+      "securityPersonnel": "3 Guards",
+      "cameras": "4 CCTV Cameras",
+      "vehicleCheck": "Manual Check"
+    }
+  }
+]
+
+export const camerasData =  [
+  {
+    "id": 1,
+
+    "phase": "Phase - I",
+    "sector": "Defence Avenue",
+    "category": "Cameras",
+    "latitude": 33.553607,
+    "longitude":  73.093445,
+    "description": "1 x PTZ camera (2MP, 30x Zoom) instl for general view",
+    "createdAt": "2023-06-04T10:39:00",
+    "createdBy": "Mr. Atif"
+  },
+  {
+    "id": 2,
+
+    "phase": "Phase - II",
+    "sector": "Sector A",
+    "category": "Lights",
+    "latitude": 33.553654, 
+    "longitude": 73.093687,
+    "description": "Street light installed near entrance gate",
+    "createdAt": "2023-07-15T12:20:00",
+    "createdBy": "Mr. Khan"
+  },
+  {
+    "id": 3,
+    "phase": "Phase - III",
+    "sector": "Sector B",
+    "category": "Servers",
+   "latitude": 33.526344, 
+    "longitude": 73.104230,
+    "description": "Primary web server for Phase III office",
+    "createdAt": "2023-08-01T09:45:00",
+    "createdBy": "Mr. Shahnawaz"
+  },
+  {
+    "id": 4,
+    "phase": "Phase - I",
+    "sector": "Sector C",
+    "category": "Pumps",
+    "latitude": 33.523678, 
+    "longitude": 73.107234,
+    "description": "Water pump installed at Sector C main reservoir",
+    "createdAt": "2023-08-12T11:15:00",
+    "createdBy": "Mr. Sikandar"
+  }
+]
